@@ -3,7 +3,7 @@
 > A lightweight, plain-Markdown knowledge base for engineering and data teams — the
 > "how we build and operate" handbook, kept in Git.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: AGPLv3](https://img.shields.io/badge/License-AGPL--3.0--only-yellow.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Docs: Markdown](https://img.shields.io/badge/docs-Markdown-blue.svg)](#how-its-organized)
 
@@ -30,7 +30,7 @@ and start writing.
 1. **Create your repo.** Click **“Use this template”** on GitHub (or clone this repo and point
    it at a new remote).
 2. **Make it yours.**
-   - Set the copyright holder in [`LICENSE`](LICENSE) (or swap the license).
+   - Keep the license terms in [`LICENSE`](LICENSE). Add copyright notices to [`NOTICE`](NOTICE).
    - Edit this `README.md` to describe *your* team's wiki.
    - Adjust the folder set and tie-breakers in [`CONVENTIONS.md`](CONVENTIONS.md) if your team
      files things differently — the structure is a strong default, not a cage.
@@ -89,4 +89,12 @@ GitHub-compatible, wiring up the doc template, and committing your changes.
 
 ## License
 
-[MIT](LICENSE) — free to use, adapt, and share.
+This project is licensed under [GNU AGPLv3 only](LICENSE) (`AGPL-3.0-only`).
+See [NOTICE](NOTICE) for copyright information.
+
+You can use, change, and sell copies under the license terms.
+If you distribute covered code, provide its source under the same license.
+If you change the project and let users access it over a network,
+offer those users the source of your version.
+
+Earlier releases keep the license terms that applied to them.

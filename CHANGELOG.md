@@ -4,6 +4,7 @@ Curated, high-signal log of what changed in the wiki. Most recent first. This is
 an auto-generated commit log — add a dated bullet to the **top** whenever you add or
 meaningfully change a doc.
 
+- **2026-10-10** — Change the project license to AGPLv3 only. Update the license notice and README.
 - **2026-06-30** — Added `OBSIDIAN.md`, a root guide for using the wiki as an Obsidian vault
   (setup, GitHub-compatible links, the doc template, and committing changes); linked from the
   README.
