@@ -1,31 +1,35 @@
-# Team Wiki Template
+---
+title: Dev Wiki
+description: A Markdown wiki template for team knowledge.
+owner: nickdrezza
+updated: 2026-10-13
+---
 
-> A lightweight, plain-Markdown knowledge base for engineering and data teams — the
-> "how we build and operate" handbook, kept in Git.
+# Dev Wiki
 
-[![License: AGPLv3](https://img.shields.io/badge/License-AGPL--3.0--only-yellow.svg)](LICENSE)
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Docs: Markdown](https://img.shields.io/badge/docs-Markdown-blue.svg)](#how-its-organized)
+**Team knowledge. One Git repo.**
 
-It's just Markdown files in a Git repo, filed by **what a document is**, with a small set of
-conventions that keep the knowledge findable, owned, and current. No database, no hosted
-service, no lock-in — your wiki lives next to your code and travels with it.
+A plain-Markdown handbook for how your team builds and operates.
+Keep policies, runbooks, system guides, and decisions in Git, with owners and review history.
 
-This repository is a **template**. Generate your own wiki from it, delete the example docs,
-and start writing.
+[**Use the template →**](https://github.com/nickdrezza/dev-wiki/generate)
+· [Conventions](CONVENTIONS.md)
+· [Contribute](CONTRIBUTING.md)
 
-## Why a wiki like this
+```mermaid
+flowchart LR
+    D["Team knowledge"] --> R["Review in a PR"]
+    R --> W["Shared handbook"]
+    style W fill:#eaf2ef,stroke:#417968,color:#233e34
+```
 
-- **Lives next to the work.** Same tools as code — branches, pull requests, review, history.
-- **Filing by document type scales.** "Where does this go?" has one answer, so the wiki stays
-  navigable as it grows past a handful of pages.
-- **Ownership fights decay.** Every doc names an `owner` and an `updated` date, so staleness
-  is visible instead of silent.
-- **Durable and portable.** Plain text outlives any single tool.
-- **Optional, not required, automation.** A built-in GitHub Action announces every merge to
-  your team chat — turn it on with one secret, or ignore it.
+Any text editor works. There is no database or hosted service to run.
+Documents are filed by type, with an owner and an updated date.
+Optional merge notifications can post the changes to your team chat.
 
-## Quickstart — use this template
+This repo is a template. Make a copy for your team, then replace the example documents.
+
+## Start your team wiki
 
 1. **Create your repo.** Click **“Use this template”** on GitHub (or clone this repo and point
    it at a new remote).
